@@ -1,0 +1,11 @@
+name: dart_currencies
+description: Data package containing currencies and information about them that helps formatting.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+  intl: ^0.17.0
