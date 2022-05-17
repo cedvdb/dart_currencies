@@ -1,5 +1,4 @@
 import 'package:dart_currencies/dart_currencies.dart';
-import 'package:dart_currencies/src/currency.dart';
 import 'package:test/test.dart';
 
 void main() {

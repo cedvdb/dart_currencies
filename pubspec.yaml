@@ -1,6 +1,6 @@
 name: dart_currencies
 description: Data package containing currencies and information about them that helps formatting.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/cedvdb/dart_currencies
 
 environment:

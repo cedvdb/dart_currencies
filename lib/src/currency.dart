@@ -33,6 +33,14 @@ class Currency {
     required this.symbol,
   });
 
+  /// convenience constructor for Currency.fromCode(CurrencyCode.EUR)
+  // ignore: non_constant_identifier_names
+  factory Currency.EUR() => currencyMap[CurrencyCode.EUR.name]!;
+
+  /// convenience constructor for Currency.fromCode(CurrencyCode.USD)
+  // ignore: non_constant_identifier_names
+  factory Currency.USD() => currencyMap[CurrencyCode.USD.name]!;
+
   /// Finds currency by ISO-4217 currency code (e.g. CurrencyCode.USD).
   factory Currency.fromCode(
     /// ISO-4217 code to look for.
