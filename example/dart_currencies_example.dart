@@ -2,12 +2,13 @@ import 'package:dart_currencies/dart_currencies.dart';
 import 'package:intl/intl.dart';
 
 void main() {
-  var currencyUSD = Currency.fromCode(CurrencyCode.USD);
-  currencyUSD = Currency.fromJson('USD');
+  const usd = Currency.USD();
+  final eur = Currency.fromCode(CurrencyCode.EUR);
 
   // formatting
-  print(buildEnglishFormatter(currencyUSD).format(2500));
-  print(buildFrenchFormatter(currencyUSD).format(2500));
+  print(buildEnglishFormatter(usd).format(2500));
+  print(buildEnglishFormatter(eur).format(2500));
+  print(buildFrenchFormatter(eur).format(2500));
 }
 
 /// the formatters are from the intl library but prices work well with it.

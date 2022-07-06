@@ -1,3 +1,7 @@
+## 2.0.0
+
+- const constructors
+
 ## 1.0.1
 
 - Added convenience factories for EUR and USD
